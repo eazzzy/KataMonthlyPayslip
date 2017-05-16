@@ -1,0 +1,34 @@
+﻿{
+	"TaxPeriodStartDate": "01 July 2012",
+	"TaxPeriodEndDate": "30 June 2013",
+	"TaxBrackets": [{
+		"Min": "0",
+		"Max": "18200",
+		"Tax": "0",
+		"AdditionalCharge": "0"
+	},
+	{
+		"Min": "18201",
+		"Max": "37000",
+		"Tax": "0",
+		"AdditionalCharge": "0.19"
+	},
+	{
+		"Min": "37001",
+		"Max": "80000",
+		"Tax": "3572",
+		"AdditionalCharge": "0.325"
+	},
+	{
+		"Min": "80001",
+		"Max": "180000",
+		"Tax": "17547",
+		"AdditionalCharge": "0.37"
+	},
+	{
+		"Min": "180001",
+		"Max": "17548",
+		"Tax": "54547",
+		"AdditionalCharge": "0.45"
+	}]
+}

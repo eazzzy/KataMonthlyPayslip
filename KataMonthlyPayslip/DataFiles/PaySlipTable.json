@@ -1,0 +1,32 @@
+﻿{
+	"MinAnnualSalary":"0",
+	"MinSuperRate":"0",
+	"MaxSuperRate":"50",
+	"Payslipentries": [{
+		"FirstName":"David",
+		"LastName":"Rudd",
+		"AnnualSalary":"60050",
+		"SuperRate":"9%",
+		"PaymentStartDate":"01 March"
+	},
+	{
+		"FirstName":"Ryan",
+		"LastName":"Chen",
+		"AnnualSalary":"120000",
+		"SuperRate":"10%",
+		"PaymentStartDate":"01 March"
+	},
+	{
+		"FirstName":"Nico",
+		"LastName":"Swanepoel",
+		"AnnualSalary":"85000",
+		"SuperRate":"21%",
+		"PaymentStartDate":"01 September"
+	},
+		{"FirstName":"Lizzy",
+		"LastName":"Fitgerald",
+		"AnnualSalary":"17995",
+		"SuperRate":"5",
+		"PaymentStartDate":"05 April"
+	}]
+}
