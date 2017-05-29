@@ -28,14 +28,14 @@ namespace KataMonthlyPaySlip.Tests
 
 
     [TestMethod]
-    public void TestGeneratePaySlip1()
+    public void TestAnnualSalary60500SuperRate9()
     {
       MonthPayClass = new MonthlyPay(DataObject.Load<TaxTableCollection>(taxData));
 
       var paySlipOutput = String.Empty;
       var paySlipEntry = paySlipEntries[0];
 
-      IApplicationDataCollection paySlipTable = DataObject.Load<PaySlipTableCollection>(paySlipEntry);
+      PaySlipTableCollection paySlipTable = DataObject.Load<PaySlipTableCollection>(paySlipEntry);
 
       foreach (PaySlipEntry input in paySlipTable.GetTableEntries)
       {
@@ -54,14 +54,14 @@ namespace KataMonthlyPaySlip.Tests
     }
 
     [TestMethod]
-    public void TestGeneratePaySlip2()
+    public void TestAnnualSalary120000SuperRate10()
     {
       MonthPayClass = new MonthlyPay(DataObject.Load<TaxTableCollection>(taxData));
 
       var paySlipOutput = String.Empty;
       var paySlipEntry = paySlipEntries[1];
 
-      IApplicationDataCollection paySlipTable = DataObject.Load<PaySlipTableCollection>(paySlipEntry);
+      PaySlipTableCollection paySlipTable = DataObject.Load<PaySlipTableCollection>(paySlipEntry);
 
       foreach (PaySlipEntry input in paySlipTable.GetTableEntries)
       {
@@ -80,14 +80,14 @@ namespace KataMonthlyPaySlip.Tests
     }
 
     [TestMethod]
-    public void TestGeneratePaySlip3()
+    public void TestAnnualSalary85000SuperRate21()
     {
       MonthPayClass = new MonthlyPay(DataObject.Load<TaxTableCollection>(taxData));
 
       var paySlipOutput = String.Empty;
       var paySlipEntry = paySlipEntries[2];
 
-      IApplicationDataCollection paySlipTable = DataObject.Load<PaySlipTableCollection>(paySlipEntry);
+      PaySlipTableCollection paySlipTable = DataObject.Load<PaySlipTableCollection>(paySlipEntry);
 
       foreach (PaySlipEntry input in paySlipTable.GetTableEntries)
       {
@@ -106,14 +106,14 @@ namespace KataMonthlyPaySlip.Tests
     }
 
     [TestMethod]
-    public void TestGeneratePaySlip4()
+    public void TestAnnualSalary17995SuperRate5()
     {
       MonthPayClass = new MonthlyPay(DataObject.Load<TaxTableCollection>(taxData));
 
       var paySlipOutput = String.Empty;
       var paySlipEntry = paySlipEntries[3];
 
-      IApplicationDataCollection paySlipTable = DataObject.Load<PaySlipTableCollection>(paySlipEntry);
+      PaySlipTableCollection paySlipTable = DataObject.Load<PaySlipTableCollection>(paySlipEntry);
 
       foreach (PaySlipEntry input in paySlipTable.GetTableEntries)
       {
